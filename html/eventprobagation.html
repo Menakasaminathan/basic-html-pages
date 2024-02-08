@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grandparent{
+            border: 1px solid black;
+            height: 600px;
+            width: 500px;
+            padding: 30px;
+        }
+        #parent{
+            border: 1px solid black;
+            height: 500px;
+            width: 400px;
+            padding: 30px;
+        }
+        #child{
+            border: 1px solid black;
+            height: 400px;
+            width: 300px;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="grandparent"> GrandParent
+        <div id="parent">parent
+            <div id="child">child
+                <input type="checkbox" id="check">Check box
+
+            </div>
+        </div>    
+    </div>
+
+  
+    <h1 id="head"></h1>
+    <script src="../javascript/eventprobagation.js"></script>
+</body>
+</html>
+
+
+
+
